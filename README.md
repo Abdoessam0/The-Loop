@@ -1,120 +1,3 @@
-# 🎮 The Loop – AI-Driven Life Cycle Game
-
-**The Loop** is a Unity-based interactive narrative game that explores the human life cycle through four stages — **Childhood**, **Youth**, **Adulthood**, and **Old Age**.  
-Player choices dynamically shape the story, environment, and final outcome using a lightweight AI-driven dialogue and decision system.
-
----
-
-## 🚀 Project Overview
-
-**Goal:**  
-To design an AI-supported, choice-based life simulation game where player decisions influence the emotional tone and storyline of each stage.
-
-**Core Technologies**
-- Unity 2022.3 LTS (C#)
-- TextMeshPro UI System
-- ScriptableObjects / JSON for dialogues
-- Hugging Face Inference API (planned integration for AI dialogue generation)
-
----
-
-## 🧩 Current Progress (Abdelrahman Mohamed)
-
-✅ Completed:
-- Project setup and GitHub repository  
-- **Main Menu Scene** (Start / Exit)  
-- Scene loading logic via `SceneManager`  
-- Working quit behavior for both Editor and Build  
-- Clean UI layout with title and black background  
-- Initial research on connecting Unity to **Hugging Face API** for AI dialogue  
-
-🧭 Next Steps:
-- Build **Settings Menu** (volume + graphics quality with saved preferences)  
-- Create **Stage1** (Childhood) prototype scene  
-- Develop dialogue system and integrate basic decision tree  
-- Connect AI dialogue generation through Hugging Face API  
-
----
-
-## 🧠 AI Integration Research
-
-Explored methods for connecting Unity to external AI models via **REST API**, including:
-- Authenticating and sending text prompts to Hugging Face models
-- Handling JSON responses with `UnityWebRequest`
-- Generating adaptive dialogue options in real time  
-This will later allow the game’s NPCs to react intelligently to player decisions.
-
----
-
-## 📁 Folder Structure
-
-Assets/
-└── _Project/
-├── Scenes/
-│ ├── MainMenu.unity
-│ ├── Stage1.unity
-│ └── Summary.unity
-├── Scripts/
-│ └── UI/
-│ ├── SceneLoader.cs
-│ └── SettingsController.cs
-├── Prefabs/
-├── Materials/
-└── Audio/
-
-yaml
-Copy code
-
----
-
-## 🧠 Scene Flow
-
-[Main Menu]
-↓
-[Stage1 - Childhood]
-↓
-[Stage2 - Youth]
-↓
-[Stage3 - Adulthood]
-↓
-[Stage4 - Old Age]
-↓
-[Summary Screen]
-
-yaml
-Copy code
-
----
-
-## 🧑‍💻 Developer
-
-**Abdelrahman Mohamed**  
-AI & Dialogue System Developer – *The Loop Project*  
-Atatürk University  
-GitHub: [Abdoessam0](https://github.com/Abdoessam0)
-
----
-
-## 🔗 Repository
-
-[https://github.com/Abdoessam0/The-Loop](https://github.com/Abdoessam0/The-Loop)
-Would you like me to also write a short Turkish summary at the bottom of the README (for your Turkish teammates or supervisor)?
-
-
-
-
-
-You said:
-again 
-
-
-
-ChatGPT said:
-Of course, abdo — here’s a clean, professional, improved README.md version rewritten from scratch.
-Copy it directly into your GitHub repo’s README.md file.
-
-markdown
-Copy code
 # 🎮 The Loop – AI Driven Life Cycle Game
 
 **The Loop** is a Unity-based interactive life simulation game that lets players experience four main stages of life — **Childhood**, **Youth**, **Adulthood**, and **Old Age**.  
@@ -169,41 +52,39 @@ This research will form the basis for the AI dialogue system in later phases of 
 
 ## 🗂️ Folder Structure
 
+```
 Assets/
-└── _Project/
-├── Scenes/
-│ ├── MainMenu.unity
-│ ├── Stage1.unity
-│ └── Summary.unity
-├── Scripts/
-│ └── UI/
-│ ├── SceneLoader.cs
-│ └── SettingsController.cs
-├── Prefabs/
-├── Materials/
-└── Audio/
-
-yaml
-Copy code
+ └── _Project/
+      ├── Scenes/
+      │    ├── MainMenu.unity
+      │    ├── Stage1.unity
+      │    └── Summary.unity
+      ├── Scripts/
+      │    └── UI/
+      │         ├── SceneLoader.cs
+      │         └── SettingsController.cs
+      ├── Prefabs/
+      ├── Materials/
+      └── Audio/
+```
 
 ---
 
 ## 🧭 Scene Flow
 
+```
 [Main Menu]
-↓
+   ↓
 [Stage1 – Childhood]
-↓
+   ↓
 [Stage2 – Youth]
-↓
+   ↓
 [Stage3 – Adulthood]
-↓
+   ↓
 [Stage4 – Old Age]
-↓
+   ↓
 [Summary Screen]
-
-yaml
-Copy code
+```
 
 ---
 
@@ -211,6 +92,7 @@ Copy code
 
 **Abdelrahman Mohamed**  
 AI & Dialogue System Developer – *The Loop Project*  
-Atatürk University  
+
 
 GitHub: [Abdoessam0](https://github.com/Abdoessam0)  
+Project Repository: [https://github.com/Abdoessam0/The-Loop](https://github.com/Abdoessam0/The-Loop)
