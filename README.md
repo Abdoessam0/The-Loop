@@ -20,7 +20,7 @@ To build an AI-assisted interactive storytelling game where player choices dynam
 
 ---
 
-## 🧩 Current Progress (by Abdelrahman Mohamed)
+## 🧩 Current Progress 
 
 ✅ **Completed**
 - Created the Unity project and GitHub repository  
